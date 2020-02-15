@@ -15,6 +15,8 @@ npm run build
 
 Here is the html for the Header and Footer. I made it into a fake page just in case you want to copy and paste it and use it as a template.
 
+```
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,3 +88,5 @@ Here is the html for the Header and Footer. I made it into a fake page just in c
 </body>
 
 </html>
+
+```
