@@ -1,5 +1,9 @@
 # teamSassGroup4
 
+## CONCERNS
+ - I was wondering if we will have to change home.html to index.html? Will Netlify know to use that as the index? 
+ - I deleted nav.scss because the whole header is basically a two part navigation bar because of the search area on the top nav bar.
+
 ## Hi Everyone,
 We will be using Prettier to keep our code styling the same. Prettier is a linter on VS Code. You can download it by searching for it in the extensions window of VS Code. This is where we downloaded Live Server, Live Sass Compiler etc.
 
@@ -13,7 +17,7 @@ npm run build
 
 ## Header / Footer
 
-Here is the html for the Header and Footer. I made it into a fake page just in case you want to copy and paste it and use it as a template.
+Here is the html for the Header and Footer. I made it into a fake page just in case you want to copy and paste it and use it as a template. OR go to details.html and copy and paste. I used details.html because I needed a place to test the sass/css and the mock of this page is bascially dummy text and an image I think.
 
 ```
 
