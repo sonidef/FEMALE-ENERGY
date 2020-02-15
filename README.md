@@ -3,6 +3,7 @@
 ## CONCERNS
  - I was wondering if we will have to change home.html to index.html? Will Netlify know to use that as the index? 
  - I deleted nav.scss because the whole header is basically a two part navigation bar because of the search area on the top nav bar.
+ - We need to have at least one mixin (sass function thing). I was thinking maybe for our bios on the about page? This is an area that repeats. 
 
 ## Hi Everyone,
 We will be using Prettier to keep our code styling the same. Prettier is a linter on VS Code. You can download it by searching for it in the extensions window of VS Code. This is where we downloaded Live Server, Live Sass Compiler etc.
