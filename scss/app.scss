@@ -1,0 +1,11 @@
+$primary-color: red;
+$secondary-color: blue;
+$third-color: green;
+$fourth-color: yellow;
+
+@import "./components/_footer.scss";
+@import "./components/_header.scss";
+@import "./components/_nav.scss";
+@import "./pages/_about.scss";
+@import "./pages/_details.scss";
+@import "./pages/_home.scss";
