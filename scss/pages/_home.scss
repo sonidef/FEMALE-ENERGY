@@ -3,6 +3,14 @@ body {
  background-color: $light-yellow; 
 }
 
+h1 {
+  font-family: $family-sans-serif;
+}
+
+p {
+  font-family: $family-serif;
+}
+
 .top-section {
   display: flex;
   justify-content: center;
