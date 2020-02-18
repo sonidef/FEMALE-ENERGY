@@ -1,8 +1,40 @@
-$primary-color: red;
-$secondary-color: blue;
-$third-color: green;
-$fourth-color: yellow;
+// $primary-color: red;
+// $secondary-color: blue;
+// $third-color: green;
+// $fourth-color: yellow;
 
+//Colors
+$black: hsl(0, 0%, 4%) !default;
+$black-bis: hsl(0, 0%, 7%) !default;
+$black-ter: hsl(0, 0%, 14%) !default;
+
+
+$white-ter: hsl(0, 0%, 96%) !default;
+$white: hsl(0, 0%, 100%) !default;
+
+$yellow: hsl( 39, 73, 49) !default;
+$light-yellow: hsl(45, 62, 83) !default;
+$red: hsl(8, 88, 54) !default;
+$light-red: hsl(3, 88, 54) !default;
+$blue: hsl(226, 43, 44) !default;
+$light-blue: hsl(228, 35, 83) !default;
+
+
+// Typography
+$family-sans-serif: 'Source Sans Pro', 'Arial', sans-serif !default; 
+$family-serif: 'Playfair Display', 'Times New Roman', serif !default;
+
+$thin-weight: 200 !default;
+$weight-light: 300 !default;
+$weight-normal: 400 !default;
+$weight-medium: 500 !default;
+$weight-semibold: 600 !default;
+$weight-bold: 700 !default;
+$xbold-weight: 800 !default;
+$black-weight: 900 !default;
+
+// Spacing
+$block-spacing: 1.5rem !default;
 
 
 @import "./components/_footer.scss";
