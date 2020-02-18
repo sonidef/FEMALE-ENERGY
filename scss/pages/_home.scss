@@ -1,4 +1,5 @@
 body {
+  @include reset;
  background-color: $light-yellow; 
 }
 
