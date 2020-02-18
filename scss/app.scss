@@ -31,6 +31,13 @@ $black-weight: 900 !default;
 // Spacing
 $block-spacing: 1.5rem !default;
 
+// mixin
+@mixin reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 
 @import "./components/_footer.scss";
 @import "./components/_header.scss";
