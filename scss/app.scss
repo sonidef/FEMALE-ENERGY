@@ -19,9 +19,6 @@ $light-blue: hsl(228, 35, 83) !default;
 $family-sans-serif: 'Source Sans Pro', 'Arial', sans-serif !default; 
 $family-serif: 'Playfair Display', 'Times New Roman', serif !default;
 
-// sans serif for text, serif for headers
-// h1s red
-
 $thin-weight: 200 !default;
 $weight-light: 300 !default;
 $weight-normal: 400 !default;
@@ -41,11 +38,13 @@ $block-spacing: 1.5rem !default;
   list-style: none;
 }
 
+
 @import "./components/_footer.scss";
 @import "./components/_header.scss";
 @import "./pages/_about.scss";
 @import "./pages/_details.scss";
 @import "./pages/_home.scss";
+
 
 
 
