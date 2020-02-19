@@ -1,0 +1,27 @@
+h1 {
+    margin-top: 60px;
+}
+
+.article-body {
+    width: 750px;
+    margin-left: 150px;
+
+}
+
+.article-image {
+    width: 900px;
+}
+
+@media only screen and (max-width: 600px) {
+    .article-body {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-start; 
+    }
+
+    img {
+        height: 400px;
+        width: 400px;
+    }
+  }
