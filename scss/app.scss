@@ -1,3 +1,4 @@
+
 //Colors
 $black: hsl(0, 0%, 4%) !default;
 $black-bis: hsl(0, 0%, 7%) !default;
@@ -42,10 +43,4 @@ $block-spacing: 1.5rem !default;
 @import "./components/_footer.scss";
 @import "./components/_header.scss";
 @import "./pages/_about.scss";
-@import "./pages/_details.scss";
-@import "./pages/_home.scss";
-
-
-
-
 
