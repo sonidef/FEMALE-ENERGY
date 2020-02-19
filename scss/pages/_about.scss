@@ -1,0 +1,123 @@
+body {
+    @include reset;
+   background-color: $light-yellow; 
+  }
+  
+  h1 {
+    font-family: $family-serif;
+  }
+  
+  p {
+    font-family: $family-sans-serif;
+   
+  }
+
+  .flexbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10vh 10vw;
+    line-height: 10%;
+    font-size: 1.3rem;
+  }
+
+  
+  #template {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    padding-top: 5px;
+    margin-bottom: 10px;
+  }
+ 
+ 
+  template.cards {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 256px);
+    grid-template-rows: repeat(3, 196px);
+    grid-template-areas: "horozontal card"
+                         "horizontal card"
+                         "horizontal card" ;
+
+  }
+  
+  .card {
+    display: flex;
+    padding-bottom: 20px;
+  }
+  
+
+  .horizontal {
+    flex-direction: row;
+    grid-row: span 1;
+    grid-column: span 2;
+    margin-left: 9.7vw;
+    margin-right: 7vw;
+  }
+  
+  .horizontal .img-card, .img-card {
+    height: 100%;
+  }
+  
+  .vertical .img-card {
+    width: 100%;
+  }
+  .card-content {
+    padding: 14px;
+    text-align: justify;
+  }
+  
+  .h3 {
+    font-size: 1em;
+    font-weight: 700;
+    padding-bottom: 0.3em;
+  }
+  
+  
+  .card-comment {
+    font-size: 0.9em;
+    padding: 9px;
+     
+  }
+
+
+  /*************Media Queries************/
+
+ 
+/*  Most of the Smartphones Mobiles*/
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+
+@media only screen and (min-width: 600px)   {
+  #template {
+      grid-gap: 10px;
+      grid-template-columns: 120px auto 120px;
+      grid-template-areas:
+      "horozontal card"
+      "horizontal card"
+      "horizontal card";
+      max-width: 600px;
+
+ 
+/* Tablets, Ipads */
+
+
+
+@media (min-width: 700px) and (max-width: 1024px) {
+  
+}
+
+
+/*  Laptops, Desktops */
+
+@media (min-width: 1281px) {
+  
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+ 
+}
